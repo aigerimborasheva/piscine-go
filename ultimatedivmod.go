@@ -8,6 +8,3 @@ func UltimateDivMod(a *int, b *int) {
 	*b = modULO
 
 }
-
-
-
