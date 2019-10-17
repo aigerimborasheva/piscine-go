@@ -7,6 +7,4 @@ func PrintStr(str string) {
 	for _, str := range slictt {
 		z01.PrintRune(str)
 	}
-
-	z01.PrintRune(10)
 }
