@@ -1,5 +1,4 @@
-package main
-import "fmt"
+package piscine
 
 func StrLen(str string) int {
 	count := 0
@@ -20,8 +19,3 @@ func StrRev(s string) string{
 	return word
 }
 
-func main() {
-	s := "Hello World!"
-	s = StrRev(s)
-	fmt.Println(s)
-}
