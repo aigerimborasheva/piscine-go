@@ -9,4 +9,3 @@ func RecursiveFactorial(nb int) int {
 		return 0
 	}
 }
-s
