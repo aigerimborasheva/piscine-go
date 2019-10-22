@@ -1,6 +1,5 @@
 package piscine
 
-
 func Sing(s string) bool {
 	S := false
 	for _, v := range s {
