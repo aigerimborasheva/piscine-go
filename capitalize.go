@@ -1,21 +1,21 @@
 package piscine
 
 func Capitalize(s string) string {
-	bukva := []rune(s)
-	for index, letter := range bukva {
+	bukvy := []rune(s)
+	for index, letter := range bukvy {
 		if checkAlphNum(letter) {
-			if index == 0 || checkAlphNum(stringAsRune[index-1]) == false {
+			if index == 0 || checkAlphNum(bukvy[index-1]) == false {
 				if letter >= 'a' && letter <= 'z' {
-					tring[index] = letter - 32
+					bukvy[index] = letter - 32
 				}
 			} else {
 				if letter >= 'A' && letter <= 'Z' {
-					tring[index] = letter + 32
+					bukvy[index] = letter + 32
 				}
 			}
 		}
 	}
-	return string(tring)
+	return string(bukvy)
 }
 
 func checkAlphNum(r rune) bool {
