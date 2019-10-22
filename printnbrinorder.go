@@ -1,5 +1,5 @@
 package piscine
-
+import "github.com/01-edu/z01"
 func PrintNbrInOrder(n int) {
 	var a [12]int
 	if n < 10 && n >= 0 {
