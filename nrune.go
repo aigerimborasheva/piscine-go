@@ -1,6 +1,5 @@
 package piscine
 
-
 func Length(s string) int {
 	counter := 0
 	for i := range s {
