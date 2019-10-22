@@ -1,6 +1,5 @@
 package piscine
 
-import "github.com/01-edu/z01"
 
 func Length(s string) int {
 	counter := 0
