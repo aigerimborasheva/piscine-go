@@ -11,7 +11,7 @@ func IsPrintable(str string) bool {
 }
 
 func checkPrintable(r rune) bool {
-	if r >= 0 && r <= 39 {
+	if r >= 0 && r <= 31 {
 		return true
 	}
 	return false
