@@ -1,8 +1,8 @@
 package piscine
 
 func Capitalize(s string) string {
-	bukva:= []rune(s)
-	for index, letter := range bukva{
+	bukva := []rune(s)
+	for index, letter := range bukva {
 		if checkAlphNum(letter) {
 			if index == 0 || checkAlphNum(stringAsRune[index-1]) == false {
 				if letter >= 'a' && letter <= 'z' {
