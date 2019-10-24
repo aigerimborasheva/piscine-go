@@ -3,12 +3,12 @@ package piscine
 func SplitWhiteSpaces(str string) []string {
 	runes := []rune(str)
 	count := 0
-	mor:=0
+	mor := 0
 	for _, sign := range runes {
 		if sign == 32 || sign == 10 || sign == 9 {
 			count++
 		}
-        mor++
+		mor++
 	}
 
 	k := 0
@@ -17,7 +17,7 @@ func SplitWhiteSpaces(str string) []string {
 
 	stringe := ""
 	for index, sign := range runes {
-		if sign == 32 || sign == 10 || sign == 9  || index==mor {
+		if sign == 32 || sign == 10 || sign == 9 || index == mor {
 			answer[k] = stringe
 			k++
 			stringe = ""
