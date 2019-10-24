@@ -1,6 +1,6 @@
 package piscine
 
-func AppendRange(min, max int) []int {
+func MakeRange(min, max int) []int {
 	if max > min {
 		size := max - min
 		answer := make([]int, size)
